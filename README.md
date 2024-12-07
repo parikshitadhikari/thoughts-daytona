@@ -1,34 +1,34 @@
-This repository contains a README file sample for Daytona Samples and the MIT License.
+# Thoughts
 
-It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
+Thoughts is a project built using:
+- React Native
+- Nodejs and Express
+- MongoDB
+- Redux Toolkit
 
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
+### Demo
+https://github.com/parikshitadhikari/auth-reactnative/assets/83907047/5d17c319-fc5f-44c1-8f4d-7ad6ca36174d
 
-# Sample <LANGUAGE/FRAMEWORK>
+### Features
+- Authentication
+- Update user profile
+- Add, Delete and Edit Thoughts
+- Search thoughts
 
-Sample description
+### Running the project
+In order to run this project locally, firstly you'll need to setup `expo` in your Mobile or need and an Android or iOS simulator.
 
----
+After, expo setup, following steps shall be performed
 
-## 🚀 Getting Started  
+1. Clone this repository
 
-### Open Using Daytona  
+2. Navigate to the root directory and run `npm i`. After installation, run `npm start` to run the client side.
 
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create <SAMPLE_REPO_URL> 
-   ```  
-
-... MORE STEPS IF NEEDED ...
-
-4. **Start the Application**:  
-   ```bash  
-   command to start the app
-   ```  
-
----
-
-## ✨ Features  
-
-List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
+3. Navigate to the `backend` directory and run `npm i`. Then inside the `backend` directory create a `.env` file and add the following:
+```
+NODE_ENV=development
+PORT=**** 
+MONGO_URI=*********** 
+JWT_SECRET=*******
+```
+Now, run `npm start` to start the server.
