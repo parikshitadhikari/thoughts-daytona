@@ -14,11 +14,11 @@ Thoughts is a mobile application built using react native that allows user to sh
    ```  
 
 3. **Start the Application**:  
-In order to start this project, firstly you'll need to setup `expo` in your Mobile or need and an Android or iOS simulator.
+In order to start this project, firstly you'll need to setup `expo` in your Mobile. To install `expo` in your mobile device, you can follow the link: `https://expo.dev/go`
 
 After, expo setup, following steps shall be performed
 
-1. Execute `npm start` to run the client side.
+1. Navigate into `client` directory and execute `npm start` to run the client side. Once the client starts, it will show a QR in the terminal which shall be scanned using the `expo` app.
 
 2. Navigate to the `backend` directory and create a `.env` file and add the following:
 ```

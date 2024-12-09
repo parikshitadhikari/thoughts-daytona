@@ -18,5 +18,5 @@
       ]
     }
   },
-  "postCreateCommand": "npm install && npm install --prefix backend"
+  "postCreateCommand": "npm install --prefix client && npm install --prefix backend"
 }
