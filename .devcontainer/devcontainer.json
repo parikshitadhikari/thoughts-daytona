@@ -1,0 +1,21 @@
+{
+  "name": "Thoughts - Node.js Development",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "forwardPorts": [
+    5001
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "javascript.validate.enable": true,
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}

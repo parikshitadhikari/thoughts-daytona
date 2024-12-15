@@ -1,15 +1,25 @@
-## About the project
-A blog project, built using the following technologies:
+# Sample Javascript/Nodejs
 
-**EJS, Node.js, Express.js, MongoDB**
+Thoughts is a web application built using NodeJs and EJS that allows user to share their thoughts.
 
-## Running the project
+## 🚀 Getting Started
 
-To run the project, go to the project directory and use the commands:
+### Open Using Daytona  
 
-```bash
-  npm install
-```
-```bash
-  npm start
-```
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
+
+2. **Create the Workspace**:  
+   ```bash  
+   daytona create https://github.com/parikshitadhikari/thoughts-daytona.git 
+   ```  
+
+3. **Start the Application**:  
+
+   1. Run `npm start` to start the server.
+
+   2. Visit `localhost:5001` to view the application.
+
+## ✨ Features  
+- Read thoughts
+- Share your thoughts
+- Interactive UI design
