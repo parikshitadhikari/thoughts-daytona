@@ -1,35 +1,15 @@
-# Sample Javascript/ReactNative
+## About the project
+A blog project, built using the following technologies:
 
-Thoughts is a mobile application built using react native that allows user to share their thoughts with others.
+**EJS, Node.js, Express.js, MongoDB**
 
-## 🚀 Getting Started  
+## Running the project
 
-### Open Using Daytona  
+To run the project, go to the project directory and use the commands:
 
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create https://github.com/parikshitadhikari/thoughts-reactnative-daytona.git 
-   ```  
-
-3. **Start the Application**:  
-In order to start this project, firstly you'll need to setup `expo` in your Mobile. To install `expo` in your mobile device, you can follow the link: `https://expo.dev/go`
-
-After, expo setup, following steps shall be performed
-
-1. Navigate into `client` directory and execute `npm start` to run the client side. Once the client starts, it will show a QR in the terminal which shall be scanned using the `expo` app.
-
-2. Navigate to the `backend` directory and create a `.env` file and add the following:
+```bash
+  npm install
 ```
-NODE_ENV=development
-MONGO_URI=*********** 
-JWT_SECRET=*******
+```bash
+  npm start
 ```
-Now, run `npm start` to start the server.
-
-## ✨ Features  
-- Authentication
-- Update user profile
-- Add, Delete and Edit Thoughts
-- Search thoughts
