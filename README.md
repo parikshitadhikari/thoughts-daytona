@@ -17,7 +17,9 @@ Thoughts is a web application built using NodeJs and EJS that allows user to sha
 
    1. Run `npm start` to start the server.
 
-   2. Visit `localhost:5001` to view the application.
+   2. In VsCode, open Terminal and then forward the port to 5001.
+
+   3. Visit `localhost:5001` to view the application.
 
 ## ✨ Features  
 - Read thoughts
